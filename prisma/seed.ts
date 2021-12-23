@@ -1,12 +1,12 @@
 import { PrismaClient } from "@prisma/client";
 import bcrypt from "bcrypt";
-import { artistData } from "./songsData";
+import { artistsData } from "./songsData";
 
 const prisma = new PrismaClient();
 
 const run = async () => {
   await Promise.all(
-    artistData.map(async (artist) => {
+    artistsData.map(async (artist) => {
       return prisma.artist.upsert({
         where: { name: artist.name },
         update: {},
