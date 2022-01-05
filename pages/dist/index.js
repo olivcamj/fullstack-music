@@ -53,7 +53,7 @@ var Home = function () {
     return (React.createElement(gradientLayout_1["default"], { roundImage: true, color: "gray", subtitle: "profile", title: isLoading ? dataLoading() : (user === null || user === void 0 ? void 0 : user.firstName) + " " + (user === null || user === void 0 ? void 0 : user.lastName), description: isLoading ? dataLoading() : (user === null || user === void 0 ? void 0 : user.playlistsCount) + " public playlists", image: "https://tinted-gym-f99.notion.site/image/https%3A%2F%2Fdl.dropboxusercontent.com%2Fs%2Fbgiv0ssz3xpotz9%2Fpeep.png%3Fdl%3D0?table=block&id=33f9771b-0e6f-4a72-832c-69ed2d41f290&spaceId=511cd811-5561-4a61-b550-c4086b4afafb&width=2000&userId=&cache=v2" },
         React.createElement(layout_1.Box, { color: "white", paddingX: "40px" },
             React.createElement(layout_1.Box, { marginBottom: "40px" },
-                React.createElement(layout_1.Text, { fontSize: "2xl", fontWeight: "bold" }, "Top artist this month"),
+                React.createElement(layout_1.Text, { fontSize: "2xl", fontWeight: "bold" }, "Top artists this month"),
                 React.createElement(layout_1.Text, { fontSize: "sm" }, "only visible to you")),
             React.createElement(layout_1.Flex, null, songsData_1.artistsData.map(function (artist) { return (React.createElement(layout_1.Box, { paddingX: "10px", width: "20%" },
                 React.createElement(layout_1.Box, { bg: "gray.900", borderRadius: "4px", padding: "15px", width: "100%" },

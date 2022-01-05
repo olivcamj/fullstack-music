@@ -28,7 +28,7 @@ const Home = () => {
       <Box color="white" paddingX="40px">
         <Box marginBottom="40px">
           <Text fontSize="2xl" fontWeight="bold">
-            Top artist this month
+            Top artists this month
           </Text>
           <Text fontSize="sm">only visible to you</Text>
         </Box>
