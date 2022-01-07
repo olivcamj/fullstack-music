@@ -33,9 +33,9 @@ const SongTable = ({ songs }) => {
           {songs.map((song, i) => (
             <Tr
               sx={{
-                transition: "all 3s",
-                "&hover": {
-                  bg: "rbga(255,255,255, .1)",
+                transition: "all .3s",
+                "&:hover": {
+                  bg: "rgba(255,255,255, .1)",
                 },
               }}
               key={song.id}
